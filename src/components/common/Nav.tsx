@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "@/assets/logo.svg";
 import Image from "next/image";
+import { Languages, Menu, Search, User } from "lucide-react";
+import Link from "next/link";
 
 interface Props extends React.ComponentProps<"nav"> {}
 
@@ -11,9 +13,9 @@ export const Nav = ({ ...props }: Props) => {
       {...props}
     >
       <div className="flex items-center">
-        <a href="./index.html">
+        <Link href="/">
           <Image src={logo} alt="Hotel Logo" className="h-8 w-auto" />
-        </a>
+        </Link>
       </div>
       <div className="row-start-2 col-span-2 border-0 md:border flex shadow-sm hover:shadow-md transition-all md:rounded-full items-center px-2">
         <div className="grid md:grid-cols-3 lg:grid-cols-7 gap-4 divide-x py-2 md:px-2 flex-grow">
@@ -24,17 +26,17 @@ export const Nav = ({ ...props }: Props) => {
           />
         </div>
         <button className="bg-primary w-9 h-9 rounded-full grid place-items-center text-sm text-center transition-all hover:brightness-90 shrink-0">
-          {/* <i className="fas fa-search text-white" /> */}
+          <Search className="text-white" />
         </button>
       </div>
       <div className="flex items-center space-x-4 relative justify-end">
         <button>
-          <i className="fas fa-language text-zinc-700 text-xl" />
+          <Languages className=" text-zinc-700 text-xl" />
         </button>
         <button className="bg-white border border-zinc-300 text-zinc-800 px-4 py-2 rounded-full hover:shadow-md flex gap-3 items-center justify-center">
-          <i className="fas fa-bars" />
+          <Menu />
           <span className="bg-zinc-600 w-6 h-6 rounded-full flex items-center justify-center text-xs text-white">
-            <i className="fas fa-user text-white" />
+            <User className="text-white" />
           </span>
         </button>
         {/* Popup */}
