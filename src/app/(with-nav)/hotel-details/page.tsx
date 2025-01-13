@@ -1,3 +1,13 @@
+import {
+  BedDouble,
+  ChefHat,
+  CircleUser,
+  DoorOpen,
+  Star,
+  Umbrella,
+  WavesLadder,
+  Wifi,
+} from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -11,7 +21,7 @@ const HotelDetails = () => {
           <div className="mb-6">
             <h1 className="text-3xl font-bold mb-2">Maldives Paradise</h1>
             <div className="flex items-center text-gray-600">
-              <i className="fas fa-star text-yellow-500 mr-1" />
+              <Star className="fas fa-star text-yellow-500 mr-1" />
               <span>5 · </span>
               <span className="ml-2">2 reviews</span>
               <span className="mx-2">·</span>
@@ -76,15 +86,15 @@ const HotelDetails = () => {
                 </h2>
                 <div className="grid grid-cols-3 gap-4 text-gray-600">
                   <div className="flex items-center gap-2">
-                    <i className="fas fa-person" />
+                    <CircleUser />
                     <span>6 guests</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <i className="fas fa-door-open" />
+                    <DoorOpen />
                     <span>3 bedrooms</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <i className="fas fa-bed" />
+                    <BedDouble />
                     <span>4 beds</span>
                   </div>
                 </div>
@@ -108,19 +118,19 @@ const HotelDetails = () => {
                 </h3>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="flex items-center gap-2">
-                    <i className="fa-solid fa-umbrella-beach" />
+                    <Umbrella />
                     <span>Beach access</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <i className="fa-solid fa-person-swimming" />
+                    <WavesLadder />
                     <span>Private pool</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <i className="fa-solid fa-wifi" />
+                    <Wifi />
                     <span>Free Wi-Fi</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <i className="fa-solid fa-sink" />
+                    <ChefHat />
                     <span>Kitchen</span>
                   </div>
                 </div>
@@ -135,7 +145,7 @@ const HotelDetails = () => {
                     <span className="text-gray-600 ml-1">per night</span>
                   </div>
                   <div className="flex items-center">
-                    <i className="fas fa-star text-yellow-500 mr-1" />
+                    <Star className="fas fa-star text-yellow-500 mr-1" />
                     <span>5</span>
                   </div>
                 </div>
@@ -180,7 +190,7 @@ const HotelDetails = () => {
             <div className="flex items-center gap-4">
               <h2 className="text-2xl font-semibold">Reviews</h2>
               <div className="flex items-center">
-                <i className="fas fa-star text-yellow-500 mr-2" />
+                <Star className="fas fa-star text-yellow-500 mr-2" />
                 <span className="text-xl font-semibold">4.9</span>
                 <span className="mx-2">·</span>
                 <span className="text-gray-600">2 reviews</span>
@@ -213,11 +223,11 @@ const HotelDetails = () => {
                 </div>
               </div>
               <div className="flex items-center">
-                <i className="fas fa-star text-yellow-500" />
-                <i className="fas fa-star text-yellow-500" />
-                <i className="fas fa-star text-yellow-500" />
-                <i className="fas fa-star text-yellow-500" />
-                <i className="fas fa-star text-yellow-500" />
+                <Star className="text-yellow-500" />
+                <Star className="text-yellow-500" />
+                <Star className="text-yellow-500" />
+                <Star className="text-yellow-500" />
+                <Star className="text-yellow-500" />
               </div>
               <p className="text-gray-600 leading-relaxed">
                 Amazing stay! The villa exceeded our expectations. The private
@@ -243,11 +253,7 @@ const HotelDetails = () => {
                 </div>
               </div>
               <div className="flex items-center">
-                <i className="fas fa-star text-yellow-500" />
-                <i className="fas fa-star text-yellow-500" />
-                <i className="fas fa-star text-yellow-500" />
-                <i className="fas fa-star text-yellow-500" />
-                <i className="fas fa-star text-yellow-500" />
+                <Star className="text-yellow-500" />
               </div>
               <p className="text-gray-600 leading-relaxed">
                 Perfect location for a family vacation. The villa was spotlessly
