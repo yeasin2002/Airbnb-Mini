@@ -1,3 +1,4 @@
+import { BedDouble } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 // interface Props extends React.ComponentProps<"div"> {}
@@ -15,7 +16,7 @@ export const HotelCards = () => {
             height={1080}
           />
           <div className="absolute top-3 right-3 bg-white/80 px-3 py-1 rounded-full text-xs font-semibold">
-            <i className="ph-bed inline-block mr-1" />3 Rooms Left
+            <BedDouble className="ph-bed inline-block mr-1" />3 Rooms Left
           </div>
         </div>
         <div className="mt-3">

@@ -123,7 +123,7 @@ const ManageHotels = () => {
                     <PencilLine />
                   </button>
                   <button className="text-red-500 hover:text-red-600">
-                    <i className="fas fa-trash" />
+                    <Trash2 className="fas fa-trash" />
                   </button>
                 </div>
               </div>

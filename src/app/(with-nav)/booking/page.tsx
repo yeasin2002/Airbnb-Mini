@@ -1,3 +1,4 @@
+import { Download } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -32,7 +33,7 @@ const BookingPage = () => {
                 View Trip Details
               </button>
               <button className="px-3 py-2 text-sm border border-gray-300 rounded-lg hover:bg-gray-50">
-                <i className="fas fa-download mr-2" />
+                <Download className="fas fa-download mr-2" />
                 Download Receipt
               </button>
             </div>
@@ -62,7 +63,7 @@ const BookingPage = () => {
                 View Trip Details
               </button>
               <button className="px-3 py-2 text-sm border border-gray-300 rounded-lg hover:bg-gray-50">
-                <i className="fas fa-download mr-2" />
+                <Download className="fas fa-download mr-2" />
                 Download Receipt
               </button>
             </div>
@@ -92,7 +93,7 @@ const BookingPage = () => {
                 View Trip Details
               </button>
               <button className="px-3 py-2 text-sm border border-gray-300 rounded-lg hover:bg-gray-50">
-                <i className="fas fa-download mr-2" />
+                <Download className="fas fa-download mr-2" />
                 Download Receipt
               </button>
             </div>

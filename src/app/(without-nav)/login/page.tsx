@@ -1,3 +1,4 @@
+import { X } from "lucide-react";
 import React from "react";
 
 const Login = () => {
@@ -11,7 +12,7 @@ const Login = () => {
             id="closeModalBtn"
             className="absolute top-4 right-4 text-gray-500 hover:text-gray-800"
           >
-            <i className="ph-x text-2xl" />
+            <X className="ph-x text-2xl" />
           </button>
           {/* Modal Header */}
           <div className="text-center mb-6">

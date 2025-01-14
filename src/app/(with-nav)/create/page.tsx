@@ -3,6 +3,7 @@ import {
   ChefHat,
   DoorOpen,
   Dumbbell,
+  Save,
   SquareParking,
   Umbrella,
   UserRound,
@@ -19,7 +20,7 @@ const CreateHotel = () => {
         {/* Property Details Container */}
         <div className="max-w-7xl mx-auto px-6 py-8 relative">
           <button className="px-4 py-2 bg-primary text-white rounded-lg hover:brightness-90 absolute top-4 right-4">
-            <i className="fas fa-save mr-2" />
+            <Save className="fas fa-save mr-2" />
             Publish
           </button>
           {/* Property Title and Rating */}
